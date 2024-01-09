@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708314554944",
+    "firebase_url": "https://instagram-clone-427c7-default-rtdb.firebaseio.com",
+    "project_id": "instagram-clone-427c7",
+    "storage_bucket": "instagram-clone-427c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708314554944:android:3f05ab02f8eb3999d775a5",
+        "android_client_info": {
+          "package_name": "com.chandan.instagramck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708314554944-36eu5h83iolt7nikr8p7cnnqglhj8ki7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAimyrPPJ0oN5gDugDKCkrM5R760uW3xco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708314554944-36eu5h83iolt7nikr8p7cnnqglhj8ki7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

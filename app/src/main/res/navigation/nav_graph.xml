@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.chandan.instagramck.HomeFragment"
+        android:label="fragment_favfragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.chandan.instagramck.SearchFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_search" />
+    <dialog
+        android:id="@+id/addFragment"
+        android:name="com.chandan.instagramck.AddFragment"
+        android:label="fragment_places"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/reelFragment"
+        android:name="com.chandan.instagramck.ReelFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_reel" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.chandan.instagramck.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
